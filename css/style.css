@@ -1,0 +1,303 @@
+@import "http://fonts.fontstorage.com/import/beermoney.css";
+@import "http://fonts.fontstorage.com/import/veles.css";
+@import "http://fonts.fontstorage.com/import/marckscript.css";
+@font-face {
+    font-family: Anfisa;
+    src: url(../font/Anfisa.ttf); 
+   }
+@font-face {
+    font-family: Calligraph;
+    src: url(../font/Calligraph.ttf); 
+   }
+
+body{
+    margin: 0px;
+    background: rgb(17, 20, 17); 
+   /* background-image: url('../photo/111.jpg');
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;*/
+    overflow-x: hidden;
+}
+
+.menu {
+   
+    display: inline-block;
+    width: 100%;
+    
+}
+.aboutindex{
+    padding: 30px;
+    margin: 30px;
+    color: aliceblue;
+  font-family: 'Marck Script';
+    font-size: 25px;
+    
+    text-align: justify;
+}
+
+.text {
+    
+    display: inline;
+     vertical-align: middle;
+     background: rgb(17, 20, 17); 
+    width: 30%;
+    float: left;
+   color: aliceblue;
+    font-family: Calligraph;
+    font-size: 53px;
+    margin: 0px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    text-align: center;
+}
+.text:hover{
+    text-shadow: 0px 0px 70px #0088ff;
+}
+.text a{
+text-decoration: none;
+    
+}
+#gif {
+    width: 100%;
+    height: 100px;
+}
+.gif {
+    width: 70%;
+    float: right;
+}
+
+.menu a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.menu li{
+    font-family: Calligraph;
+    font-size: 25px;
+    list-style: none;
+    padding: 0px;
+    margin: 0xp;
+    float: left;
+    width: 25%;
+    text-align: center;
+   background: rgb(17, 20, 17); 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+     border-bottom:  3px solid rgb(17, 20, 17);
+}
+.menu ul{
+    padding: 0px;
+    margin: 0px;
+    
+}
+.menu li:hover{
+   text-shadow: 0px 0px 30px #59ff92;
+    animation: listanim;
+    animation-duration: 0.3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}
+
+.blocks {
+   
+    width: 100%;
+    height: 500px;
+    margin-top: 50px;
+    margin-bottom:  50px;
+}
+.block-1 {
+    background-image: url('../photo/left%20(1).png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 90%;
+    width: 10%;
+    height: 100%;
+    float: left;    
+}
+.block-2 {
+    width: 80%;
+    height: 100%;
+    float: left;
+    position: relative;   
+}
+.block-3 {
+    height: 100%;
+     width: 10%;
+    background-image: url('../photo/right.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 90%;
+     float: left;
+}
+.mar{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: red; 
+    animation-name: marg;
+    animation-direction: normal;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    
+}
+.subblock-1 {
+  position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(../photo/Equalizer.jpg);
+    background-color: rgba(240, 248, 255, 0.35);
+    background-size: 115%;
+    box-shadow: inset 0px 0px 70px 300px rgba(8, 8, 8, 0.53);
+    
+}
+.photo .subblock-1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+   background-image: url(../photo/all/1.jpg);
+    background-size: 100%;
+  box-shadow: inset 0px 0px 70px 300px rgba(8, 8, 8, 0);
+
+}
+.photo .subblock-1 img{
+    width: 100%;
+    height: 100%;
+    
+    
+}
+.podii .subblock-1 img, .podii .subblock-2 img, .podii .subblock-3 img{
+   height: 100%;
+     float: left;
+    padding-left: 15px;
+    margin-left: 15px;
+    padding-right: 15px;
+    margin-right: 15px;
+}
+.podii .subblock-1, .podii .subblock-2, .podii .subblock-3{
+   background: rgb(17, 20, 17);
+    color: aliceblue;
+     font-family: 'Marck Script';
+    font-size: 20px;
+      box-shadow: inset 0px 0px 70px 300px rgba(8, 8, 8, 0);
+    
+}
+
+.subblock-2 {
+  position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #00ff58;
+    display: none;
+     background-image: url(../photo/q.jpg);
+    background-size: 115%;
+     box-shadow: inset 0px 0px 70px 300px rgba(8, 8, 8, 0.79);
+}
+.subblock-3 {
+  position: absolute;
+    width: 100%;
+    height: 100%;
+    background: red;
+    display: none;
+   background-image: url(../photo/q1.jpg);
+    background-size: 115%;
+     box-shadow: inset 0px 0px 70px 300px rgba(8, 8, 8, 0.53);
+}
+.new{
+    clear: both;
+    height: 54px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+  
+}
+.line {
+    display: inline-block;
+}
+.footer{
+  
+    border-top: 1px solid #636364;
+    color: aliceblue;
+     font-family: 'Marck Script';
+    font-size: 17px;
+    
+}
+.footer img{
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+.footer a{
+   text-decoration: none;
+    color: #3b3c3c;
+}
+.vk , .facebook , .twiter{
+    padding-top: 8px;
+    float: left;
+    width: 33.333%;
+}
+.social {
+    display: block;
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.video{
+    width: 500px;
+    height: 300px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+ @-webkit-keyframes margleft{
+    0%{
+        margin-left: 0%;
+        opacity: 1;
+    }
+    100%{
+        margin-left: 100%;
+        opacity: 0;
+    }
+}
+      @-webkit-keyframes margright {
+    0%{
+        margin-left: 0%;
+        opacity: 1;
+    }
+    100%{
+        margin-left: -100%;
+        opacity: 0;
+    }
+}
+ @-webkit-keyframes opacit {
+    0%{
+        opacity: 0;
+       
+    }
+    100%{
+       
+        opacity: 1;
+    }
+}
+
+ @-webkit-keyframes listanim {
+    1% {
+         border-bottom:  3px solid #00ff14;
+        text-shadow: 0px 0px 30px #00ff14;
+    }
+    25% {
+         border-bottom:  3px solid red;
+        text-shadow: 0px 0px 30px red;
+    }
+    50% {
+         border-bottom:  3px solid #d8ff00;
+        text-shadow: 0px 0px 30px #d8ff00;
+    }
+    75% {
+         border-bottom:  3px solid white;
+        text-shadow: 0px 0px 30px white;
+    }
+    100% {
+         border-bottom:  3px solid #004eff;
+        text-shadow: 0px 0px 30px #004eff;
+    }
+}
