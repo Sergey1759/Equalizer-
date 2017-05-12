@@ -12,8 +12,7 @@ var sub3 = document.getElementById('sub-3');
 var buf;
 var arr = [sub1,sub2,sub3];
 
-// var a = window.getComputedStyle(document.getElementById('sub-1')).getPropertyValue('display');
-//    alert(a);
+
 
 left.onclick = function(){
     for (var i =0; i < 3; i++){
